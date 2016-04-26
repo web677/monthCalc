@@ -25,7 +25,7 @@
 ```javascript
     monthCalc({
     	container : document.getElementById('box'),    //列表外层容器
-		month : 1200,								//总月份
+		month : 120,								//总月份
 		val   : 300,								//每月金额
 		sep   : "-",								//日期格式分隔符
 		difM  : [1,13],								//金额不同月份
@@ -39,7 +39,7 @@
 
 ##兼容性
 
-* FF/Chrome/Safari/O/Ie6+
+* FF/Chrome/Safari/O/IE6+
 * AMD/CMD/UMD
 
 ##关于作者
