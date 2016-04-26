@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+	<title>分月返还月份计算</title>
+	<link rel="stylesheet" type="text/css" href="./src/css/base.css">
+	<link rel="stylesheet" type="text/css" href="./src/css/monthCalc.css">
+</head>
+<body>
+	<div id="box">
+		<ul class="list-title">
+			<li class="list-item">返还金额</li>
+			<li class="list-item">到账时间</li>
+		</ul>
+	</div>
+<script src="./src/js/monthCalc.js"></script>
+<script>
+/*
+-- 仅为demo，引用时无需引入css文件，请自行定义，html文件亦无要求 --
+-- 调用时需在container参数中传入包裹列表的容器 -- 
+-- 使用如有问题，可参照文档 https://github.com/web677/monthCalc/ --
+-- js复用性不强，建议读懂源码后自行组织 --
+*/
+	monthCalc({
+		container : document.getElementById('box'),	//列表外层容器
+		month : 1200,								//总月份
+		val   : 300,								//每月金额
+		sep   : "-",								//日期格式分隔符
+		difM  : [9],								//金额不同月份
+		difV  : [3000],								//对应月份金额
+		difC  : [3],								//到账时间不同月份
+		difT  : ["不到账"]							//对应月份时间
+	});
+</script>
+</body>
+</html>

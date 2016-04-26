@@ -1,0 +1,11 @@
+.m-item,.list-title{font-size: 0;}
+.list-title{background: #343336;}
+.m-num,.m-time,.list-item{
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	font-size: 1.4rem;
+	line-height: 3rem;
+	border-bottom: 1px solid #ebebef;
+}
+.list-item{color: #ffb304;font-weight: 500;}
