@@ -10,7 +10,7 @@
 * 日期分隔格式（例如："-"或"/"或["年","月"] 等）
 * 某几个月金额不同或者到账时间不同
 
-######演示地址：[Demo(http://web677.com/test677/html/monthCalc.html)](http://web677.com/test677/html/monthCalc.html)
+######演示地址：[Demo(http://web677.com/demo/html/monthCalc.html)](http://web677.com/demo/html/monthCalc.html)
 ##monthCalc实现思路
 * 获取当前年、月、日
 * 进行时间过滤
